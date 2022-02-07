@@ -8,3 +8,4 @@ Reassign data points to the cluster whose centroid is closest. Calculate new cen
 
 These two steps are repeated till the within cluster variation cannot be reduced any further. The within cluster variation is calculated as the sum of the euclidean distance between the data points and their respective cluster centroids.
 
+![1-Logo](Images/kmeans-blobs.png)
