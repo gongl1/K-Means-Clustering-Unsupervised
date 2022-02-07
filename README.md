@@ -19,3 +19,22 @@ When using the Kmeans algorithm under normal circumstances, it is because you do
 
 ![2-Logo](Images/kmeans-private.png)
 
+EDA: 
+
+Create a scatterplot of Grad.Rate versus Room.Board where the points are colored by the Private column.
+
+Create a stacked histogram showing Out of State Tuition based on the Private column. Try doing this using sns.FacetGrid.
+
+Notice how there seems to be a private school with a graduation rate of higher than 100%. What is the name of that school?
+
+K Means Cluster Creation
+
+Fit the model to all the data except for the Private label.
+
+Evaluation:
+
+There is no perfect way to evaluate clustering if you don't have the labels, however since this is just an exercise, we do have the labels, so we take advantage of this to evaluate our clusters, keep in mind, you usually won't have this luxury in the real world.
+
+Create a new column for df called 'Cluster', which is a 1 for a Private school, and a 0 for a public school.
+
+Create a confusion matrix and classification report to see how well the Kmeans clustering worked without being given any labels.
